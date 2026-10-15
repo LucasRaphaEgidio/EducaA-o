@@ -1,17 +1,15 @@
-/* Importação da fonte externa e ícones */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 
 :root {
-    /* As 4 ou mais cores exigidas pelo projeto */
-    --cor-fundo: #f4f6f9; /* Cinzento claro */
-    --cor-texto: #333333; /* Cinzento escuro */
-    --cor-ods10: #dd1367; /* Rosa/Vermelho oficial do ODS 10 */
-    --cor-primaria: #2c3e50; /* Azul escuro */
-    --cor-secundaria: #ffffff; /* Branco */
+    --cor-fundo: #f4f6f9; 
+    --cor-texto: #333333; 
+    --cor-ods10: #dd1367; 
+    --cor-primaria: #2c3e50; 
+    --cor-secundaria: #ffffff; 
 }
 
-/* 2 ou mais fontes (Poppins externa e Arial nativa) */
 body {
     font-family: 'Poppins', Arial, sans-serif;
     background-color: var(--cor-fundo);
@@ -21,7 +19,6 @@ body {
     line-height: 1.6;
 }
 
-/* Cabeçalho e Navegação */
 header {
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
@@ -47,7 +44,6 @@ nav a:hover {
     color: var(--cor-ods10);
 }
 
-/* Estrutura principal */
 main {
     max-width: 1000px;
     margin: 20px auto;
@@ -57,7 +53,6 @@ main {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-/* Seções e Caixas de texto */
 section {
     margin-bottom: 40px;
 }
@@ -71,19 +66,16 @@ h1, h2 {
     font-weight: bold;
 }
 
-/* Imagens */
-/* --- Configuração do Banner --- */
 .ods-banner {
     width: 100%;
-    height: auto; /* Mantém a proporção original para não cortar os textos do banner */
+    height: auto; 
     border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15); /* Adiciona uma sombra elegante */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15); 
     margin-bottom: 20px;
 }
 
-/* --- Configuração da Galeria --- */
 .galeria {
-    display: grid; /* Grid alinha perfeitamente as 4 imagens lado a lado */
+    display: grid; 
     grid-template-columns: repeat(4, 1fr);
     gap: 15px;
     margin-top: 20px;
@@ -91,28 +83,24 @@ h1, h2 {
 
 .galeria img {
     width: 100%;
-    height: 180px; /* Altura fixa para todas as fotos ficarem alinhadas */
-    object-fit: cover; /* Faz a imagem preencher o espaço sem distorcer (funciona como um corte inteligente) */
+    height: 180px; 
+    object-fit: cover; 
     border-radius: 8px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    transition: transform 0.3s ease; /* Prepara a imagem para o efeito de animação */
+    transition: transform 0.3s ease; 
 }
 
-/* Efeito Hover (passar o mouse) na galeria */
 .galeria img:hover {
-    transform: scale(1.05); /* Dá um leve zoom na imagem, fica muito profissional */
+    transform: scale(1.05); 
     cursor: pointer;
 }
 
-/* --- Configuração Específica do Logo ODS --- */
-/* Como o logo é quadrado e tem texto, 'cover' cortaria as letras. Usamos 'contain' */
 .galeria img.logo-ods {
     object-fit: contain; 
-    background-color: #dd1367; /* Fundo com a cor oficial do ODS 10 para preencher os espaços */
-    padding: 10px; /* Dá um respiro para o logo não grudar nas bordas */
+    background-color: #dd1367; 
+    padding: 10px; 
 }
 
-/* Formulários (Login e Registo) */
 form {
     display: flex;
     flex-direction: column;
@@ -143,7 +131,6 @@ button:hover {
     background-color: #b00f52;
 }
 
-/* Rodapé */
 footer {
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
