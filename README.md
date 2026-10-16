@@ -24,5 +24,5 @@ O repositório está organizado com os seguintes arquivos e diretórios:
 * Norberto Junior
 
 ---
-**Acesso ao Projeto:** [Insira aqui o link do GitHub Pages]
-**Vídeo de Apresentação:** [Insira aqui o link público do vídeo]
+**Acesso ao Projeto:** https://github.com/LucasRaphaEgidio/EducaA-o
+**Vídeo de Apresentação:** https://drive.google.com/file/d/1E8xrna-PdEkCxANS6ouqMjxdc4TeEFOz/view?usp=sharing 
